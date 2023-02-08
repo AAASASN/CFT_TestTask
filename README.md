@@ -28,14 +28,13 @@
 Уделяйте внимание качеству кода, который вы пишете, а также стилистическому оформлению. Учитывайте то, что ваш продукт может стать популярным, а над исходным кодом будут работать другие разработчики. Удачи!
 
 
-# Описпание решения: 
+# Описание решения: 
 
 - UI приложения основан на UIViewController, UITableView, UITextField, UITextView;
 - Реализовано удаление и сортировки заметок с применением UITableViewDataSource и UITableViewDelegate;
 - Настройка шрифта реализована только для UITextField;
 - В качестве постоянного хранилища данных использован UserDefaults.
 
-<img src="путь к файлу" alt="альтернативный текст">
 
-<img src="Read_me_Images/Simulator Screen Shot - 1.png" alt="Задана ширина и высота" width="375" height="667"> <img src="Read_me_Images/Simulator Screen Shot - 2.png" alt="Задана ширина и высота" width="120" height="210">
+<img src="Read_me_Images/Simulator Screen Shot3.png" alt="Задана ширина и высота" width="375" height="667"> <img src="Read_me_Images/Simulator Screen Shot4.png" alt="Задана ширина и высота" width="375" height="667"> <img src="Read_me_Images/Simulator Screen Shot5.png" alt="Задана ширина и высота" width="375" height="667"> <img src="Read_me_Images/Simulator Screen Shot6.png" alt="Задана ширина и высота" width="375" height="667">
 
