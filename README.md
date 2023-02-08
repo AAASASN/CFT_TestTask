@@ -30,11 +30,12 @@
 
 # Описание решения: 
 
-- UI приложения основан на UIViewController, UITableView, UITextField, UITextView;
-- Реализовано удаление и сортировки заметок с применением UITableViewDataSource и UITableViewDelegate;
-- Настройка шрифта реализована только для UITextField;
+- Навигация между экранами основана на UINavigationController, UITabBarController, UIViewController;
+- Для работы с заметками использованы UITableView, UITextField, UITextView;
+- Интерфейс свеорстан в коде, без использования Storyboard
+- Реализовано удаление и сортировки заметок с применением методов протоколов UITableViewDataSource и UITableViewDelegate;
+- Настройка шрифта реализована только для зоголовка заметки - UITextField;
 - В качестве постоянного хранилища данных использован UserDefaults.
 
-
-<img src="Read_me_Images/Simulator Screen Shot3.png" alt="Задана ширина и высота" width="375" height="667"> <img src="Read_me_Images/Simulator Screen Shot4.png" alt="Задана ширина и высота" width="375" height="667"> <img src="Read_me_Images/Simulator Screen Shot5.png" alt="Задана ширина и высота" width="375" height="667"> <img src="Read_me_Images/Simulator Screen Shot6.png" alt="Задана ширина и высота" width="375" height="667">
+<img src="Screen/Simulator Screen Shot - 1.png" alt="Задана ширина и высота" width="300" height="553">   <img src="Screen/Simulator Screen Shot - 2.png" alt="Задана ширина и высота" width="300" height="553">    <img src="Screen/Simulator Screen Shot - 3.png" alt="Задана ширина и высота" width="300" height="553">   <img src="Screen/Simulator Screen Shot - 4.png" alt="Задана ширина и высота" width="300" height="553">   <img src="Screen/Simulator Screen Shot - 5.png" alt="Задана ширина и высота" width="300" height="553">   <img src="Screen/Simulator Screen Shot - 6.png" alt="Задана ширина и высота" width="300" height="553">
 
