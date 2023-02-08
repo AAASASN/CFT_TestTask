@@ -35,4 +35,7 @@
 - Настройка шрифта реализована только для UITextField;
 - В качестве постоянного хранилища данных использован UserDefaults.
 
-<img src="путь к файлу" alt="альтернативный текст"> <img src="путь к файлу" alt="альтернативный текст"> <img src="путь к файлу" alt="альтернативный текст">
+<img src="путь к файлу" alt="альтернативный текст">
+
+<img src="Read_me_Images/Simulator Screen Shot - 1.png" alt="Задана ширина и высота" width="375" height="667"> <img src="Read_me_Images/Simulator Screen Shot - 2.png" alt="Задана ширина и высота" width="120" height="210">
+
