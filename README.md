@@ -34,8 +34,8 @@
 
 - Навигация между экранами основана на UINavigationController, UITabBarController, UIViewController;
 - Для работы с заметками использованы UITableView, UITextField, UITextView;
-- Интерфейс свеорстан в коде, без использования Storyboard
-- Реализовано удаление и сортировки заметок с применением методов протоколов UITableViewDataSource и UITableViewDelegate;
+- Интерфейс сверстан в коде, без использования Storyboard
+- Реализовано удаление и сортировка заметок с применением методов протоколов UITableViewDataSource и UITableViewDelegate;
 - Настройка шрифта реализована только для зоголовка заметки - UITextField;
 - В качестве постоянного хранилища данных использован UserDefaults.
 
