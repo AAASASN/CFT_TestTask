@@ -1,10 +1,10 @@
-<h1 align="center">Тестовое задание на стажировку в ЦФТ
+<h1 align="center"> Тестовое задание на стажировку в ЦФТ
   
-Центр Финансовых Технологий - https://team.cft.ru/start/school/ios
+<h2 align="center">Центр Финансовых Технологий - https://team.cft.ru/start/school/ios
 
 # Задание: 
 
-Необходимо создать приложение Заметки на языке программирования Swift.Приложение может быть сделано как в консольном виде, так и в виде приложения на macOS, iOS.
+Необходимо создать приложение Заметки на языке программирования Swift. Приложение может быть сделано как в консольном виде, так и в виде приложения на macOS, iOS.
 
 Строгих требований к реализации и функциональности нет, будьте творческими! Нам главное посмотреть, как вы подходите к задаче и какие инструменты в
 разработке используете.
@@ -34,10 +34,13 @@
 
 - Навигация между экранами основана на UINavigationController, UITabBarController, UIViewController;
 - Для работы с заметками использованы UITableView, UITextField, UITextView;
-- Интерфейс сверстан в коде, без использования Storyboard
-- Реализовано удаление и сортировка заметок с применением методов протоколов UITableViewDataSource и UITableViewDelegate;
+- Интерфейс сверстан в коде, без использования Storyboard;
+- Отображение, взаимодействие, удаление и сортировка заметок реализовано при помощи UITableView и его протоколов UITableViewDataSource и UITableViewDelegate;
 - Настройка шрифта реализована только для зоголовка заметки - UITextField;
 - В качестве постоянного хранилища данных использован UserDefaults.
 
-<img src="Screen/Simulator Screen Shot - 1.png" alt="Задана ширина и высота" width="300" height="553">   <img src="Screen/Simulator Screen Shot - 2.png" alt="Задана ширина и высота" width="300" height="553">    <img src="Screen/Simulator Screen Shot - 3.png" alt="Задана ширина и высота" width="300" height="553">   <img src="Screen/Simulator Screen Shot - 4.png" alt="Задана ширина и высота" width="300" height="553">   <img src="Screen/Simulator Screen Shot - 5.png" alt="Задана ширина и высота" width="300" height="553">   <img src="Screen/Simulator Screen Shot - 6.png" alt="Задана ширина и высота" width="300" height="553">
+
+
+ 
+<img src="Screen/Screenshot at Feb 10 02-53-36.png" alt="Задана ширина и высота" >
 
