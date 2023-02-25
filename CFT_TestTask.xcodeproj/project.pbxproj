@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		11467C57298DC4CB00995426 /* NoteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11467C56298DC4CB00995426 /* NoteDetailViewController.swift */; };
 		11467C5B299403E000995426 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 11467C5A299403E000995426 /* README.md */; };
+		1150905729AA36FC00244A45 /* NoteStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1150905629AA36FC00244A45 /* NoteStorage.swift */; };
 		116858CE298D1D0100E30AA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116858CD298D1D0100E30AA6 /* AppDelegate.swift */; };
 		116858D0298D1D0100E30AA6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116858CF298D1D0100E30AA6 /* SceneDelegate.swift */; };
 		116858D5298D1D0100E30AA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116858D3298D1D0100E30AA6 /* Main.storyboard */; };
@@ -16,13 +17,13 @@
 		116858DA298D1D0300E30AA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116858D8298D1D0300E30AA6 /* LaunchScreen.storyboard */; };
 		116858E2298D1ECE00E30AA6 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116858E1298D1ECE00E30AA6 /* NoteViewController.swift */; };
 		116858E4298D1F6300E30AA6 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116858E3298D1F6300E30AA6 /* InfoViewController.swift */; };
-		116858E6298D3CE400E30AA6 /* NoteStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116858E5298D3CE400E30AA6 /* NoteStorage.swift */; };
 		116858E8298D5D1200E30AA6 /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116858E7298D5D1200E30AA6 /* NoteTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		11467C56298DC4CB00995426 /* NoteDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailViewController.swift; sourceTree = "<group>"; };
 		11467C5A299403E000995426 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		1150905629AA36FC00244A45 /* NoteStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteStorage.swift; sourceTree = SOURCE_ROOT; };
 		116858CA298D1D0100E30AA6 /* CFT_TestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CFT_TestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		116858CD298D1D0100E30AA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		116858CF298D1D0100E30AA6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,7 +33,6 @@
 		116858DB298D1D0300E30AA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		116858E1298D1ECE00E30AA6 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
 		116858E3298D1F6300E30AA6 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
-		116858E5298D3CE400E30AA6 /* NoteStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteStorage.swift; sourceTree = "<group>"; };
 		116858E7298D5D1200E30AA6 /* NoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,7 +85,7 @@
 		116858E9298D6BF000E30AA6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				116858E5298D3CE400E30AA6 /* NoteStorage.swift */,
+				1150905629AA36FC00244A45 /* NoteStorage.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -166,8 +166,8 @@
 				11467C57298DC4CB00995426 /* NoteDetailViewController.swift in Sources */,
 				116858CE298D1D0100E30AA6 /* AppDelegate.swift in Sources */,
 				116858D0298D1D0100E30AA6 /* SceneDelegate.swift in Sources */,
+				1150905729AA36FC00244A45 /* NoteStorage.swift in Sources */,
 				116858E4298D1F6300E30AA6 /* InfoViewController.swift in Sources */,
-				116858E6298D3CE400E30AA6 /* NoteStorage.swift in Sources */,
 				116858E8298D5D1200E30AA6 /* NoteTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
