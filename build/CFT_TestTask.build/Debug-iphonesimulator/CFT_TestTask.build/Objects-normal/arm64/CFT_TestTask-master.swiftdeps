@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "ee03bacfbd3ed0028d377972c2282ad0cca474d632574175ff1ee89344164b75"
+build_start_time: [1677326555, 66031932]
+build_end_time: [1677326557, 634814977]
+inputs:
+  "/Users/alexander/Desktop/CFT_TestTask/CFT_TestTask/AppDelegate.swift": [1677088201, 76011180]
+  "/Users/alexander/Desktop/CFT_TestTask/CFT_TestTask/InfoViewController.swift": [1677077367, 461599826]
+  "/Users/alexander/Desktop/CFT_TestTask/CFT_TestTask/Model/NoteStorage.swift": [1677326545, 605530738]
+  "/Users/alexander/Desktop/CFT_TestTask/CFT_TestTask/NoteDetailViewController.swift": [1677326252, 133841514]
+  "/Users/alexander/Desktop/CFT_TestTask/CFT_TestTask/NoteTableViewCell.swift": [1675722866, 119659662]
+  "/Users/alexander/Desktop/CFT_TestTask/CFT_TestTask/NoteViewController.swift": [1677326252, 134102821]
+  "/Users/alexander/Desktop/CFT_TestTask/CFT_TestTask/SceneDelegate.swift": [1675426221, 731576442]
