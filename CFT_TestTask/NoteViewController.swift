@@ -18,7 +18,7 @@ class NoteViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        noteStorage = NoteStorage()
+        noteStorage = NoteStorageByCoreData() //NoteStorage()
         viewSettings()
         tableViewViewSettings()
         tableView.delegate = self
