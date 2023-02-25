@@ -7,61 +7,6 @@
 
 import Foundation
 
-enum FontSize: Int, Codable {
-    case size_13 = 13
-    case size_14 = 14
-    case size_15 = 15
-}
-
-struct FontSet: Codable {
-    
-    var noteNameFontSize: FontSize
-    var noteNameItalics: Bool
-    var noteNameBold: Bool
-    var noteTextFontSize: FontSize
-    var noteTextItalics: Bool
-    var noteTextBold: Bool
-    
-    init(noteNameFontSize: FontSize, noteNameItalics: Bool, noteNameBold: Bool, noteTextFontSize: FontSize, noteTextItalics: Bool, noteTextBold: Bool) {
-        self.noteNameFontSize = noteNameFontSize
-        self.noteNameItalics = noteNameItalics
-        self.noteNameBold = noteNameBold
-        self.noteTextFontSize = noteTextFontSize
-        self.noteTextItalics = noteTextItalics
-        self.noteTextBold = noteTextBold
-    }
-    
-    init() {
-        self.noteNameFontSize = .size_14
-        self.noteNameItalics = false
-        self.noteNameBold = false
-        self.noteTextFontSize = .size_14
-        self.noteTextItalics = false
-        self.noteTextBold = false
-    }
-    
-}
-
-struct Note: Codable {
-    
-    var noteId: String
-    var noteName: String
-    var noteText: String
-    var fontSet: FontSet
-    var priority: Int
-
-}
-
-
-protocol NoteStorageProtocol {
-    func getNotesFromStorage() -> [Note]
-    func getNoteFromStorageById(noteId: String) -> Note?
-    func setNotesToStorage(notesArray: [Note])
-    func setOneNoteToStorage(note: Note)
-    func deleteNoteFromStorageById(noteId: String)
-    func movingNoteInStorage(sourceIndex: Int, destinationIndex: Int)
-
-}
 
 struct NoteStorage: NoteStorageProtocol {
 
@@ -104,7 +49,7 @@ struct NoteStorage: NoteStorageProtocol {
             }
             
         }
-        print("не удалось выгрузмит даннык из userDefaults")
+        print("не удалось выгрузить данные из userDefaults")
         return []
     }
     
@@ -125,7 +70,7 @@ struct NoteStorage: NoteStorageProtocol {
         return noteForReturn
     }
     
-    func setNotesToStorage(notesArray: [Note]) {
+    internal func setNotesToStorage(notesArray: [Note]) {
         // создаем экземпляр JSONEncoder()
         let encoder = JSONEncoder()
                 
